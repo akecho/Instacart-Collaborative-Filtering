@@ -107,21 +107,8 @@ LEVEL = [
     (AisleNames[2], (data_matrix.iloc[2].nlargest(10))),
     (AisleNames[3], (data_matrix.iloc[3].nlargest(10))),
     (AisleNames[4], (data_matrix.iloc[4].nlargest(10))),
-    (AisleNames[5], (data_matrix.iloc[5].nlargest(10))),
-    (AisleNames[6], (data_matrix.iloc[6].nlargest(10))),
-    (AisleNames[7], (data_matrix.iloc[7].nlargest(10))),
-    (AisleNames[8], (data_matrix.iloc[8].nlargest(10))),
-    (AisleNames[9], (data_matrix.iloc[9].nlargest(10))),
-    (AisleNames[10], (data_matrix.iloc[10].nlargest(10))),
-    (AisleNames[11], (data_matrix.iloc[11].nlargest(10))),
-    (AisleNames[12], (data_matrix.iloc[12].nlargest(10))),
-    (AisleNames[13], (data_matrix.iloc[13].nlargest(10))),
-    (AisleNames[14], (data_matrix.iloc[14].nlargest(10))),
-    (AisleNames[15], (data_matrix.iloc[15].nlargest(10))),
-    (AisleNames[16], (data_matrix.iloc[16].nlargest(10))),
-    (AisleNames[17], (data_matrix.iloc[17].nlargest(10))),
-    (AisleNames[18], (data_matrix.iloc[18].nlargest(10))),
-    (AisleNames[19], (data_matrix.iloc[19].nlargest(10))),
+
+
 
 ]
 ###Radio
