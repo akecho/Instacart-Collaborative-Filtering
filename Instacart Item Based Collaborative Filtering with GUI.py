@@ -83,10 +83,10 @@ root.title('Make Me A Recommendation')
 ###root.iconbitmap('c:/gui/codemy.ico')
 
 # Creating a Label Widget
-myLabel = Label(root, text="Welcome to my recommender system! \n", width=50, font=('Helvetica', 24))
+myLabel = Label(root, text="Welcome to my recommender system! \n", width=50, font=('Helvetica', 18))
 # Image
 my_img2 = Image.open("Instacart Cover Picture.png")
-my_img2 = my_img2.resize((500,400))
+my_img2 = my_img2.resize((340,256))
 my_img = ImageTk.PhotoImage(my_img2)
 my_label = Label(image=my_img)
 my_label.pack()
@@ -103,12 +103,11 @@ selectcat.pack(anchor=W)
 
 LEVEL = [
 	(AisleNames[0], (data_matrix.iloc[0].nlargest(10))),
-    (AisleNames[1], (data_matrix.iloc[1].nlargest(10))),
-    (AisleNames[2], (data_matrix.iloc[2].nlargest(10))),
-    (AisleNames[3], (data_matrix.iloc[3].nlargest(10))),
-    (AisleNames[4], (data_matrix.iloc[4].nlargest(10))),
-
-
+    (AisleNames[20], (data_matrix.iloc[20].nlargest(10))),
+    (AisleNames[9], (data_matrix.iloc[9].nlargest(10))),
+    (AisleNames[120], (data_matrix.iloc[120].nlargest(10))),
+    (AisleNames[70], (data_matrix.iloc[70].nlargest(10))),
+    (AisleNames[100], (data_matrix.iloc[100].nlargest(10))),
 
 ]
 ###Radio
